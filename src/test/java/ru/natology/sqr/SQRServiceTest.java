@@ -49,6 +49,7 @@ class SQRServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testWhenFewSquaresFound5() {
         SQRService service = new SQRService();
@@ -57,7 +58,8 @@ class SQRServiceTest {
         int expected = 1;
 
         Assertions.assertEquals(expected, actual);
-}
+    }
+
     @Test
     public void testWhenFewSquaresFound6() {
         SQRService service = new SQRService();
@@ -66,6 +68,6 @@ class SQRServiceTest {
         int expected = 0;
 
         Assertions.assertEquals(expected, actual);
-}
+    }
 }
 
